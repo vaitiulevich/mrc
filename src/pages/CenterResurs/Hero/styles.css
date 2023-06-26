@@ -1,0 +1,24 @@
+.hero{
+    background-color: #436D9717;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.hero-descrioption{
+    color: #717070;
+    font-size: 13px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero h1{
+    margin-bottom: 0px;
+}
+.img-hero{
+    width: 55%;
+}
+.span-acent{
+    text-transform: uppercase;
+}

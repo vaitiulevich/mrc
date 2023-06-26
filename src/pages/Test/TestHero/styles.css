@@ -1,0 +1,6 @@
+.test-hero{
+    min-height: 400px;
+    background-color: #436D9717;
+    display: flex;
+    justify-content: space-between;
+}

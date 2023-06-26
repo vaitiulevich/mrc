@@ -1,0 +1,42 @@
+.labs{
+    min-height: 1200px;
+    background-image: url(../../../assets/bg-logo.png); 
+    /* background-position: right top;  */
+    background-position: -50% 45%;
+    background-repeat: repeat-x;
+}
+.item-priloz{
+    box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.23);
+    background: #FFFFFF;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    min-height: 120px;
+    justify-content: center;
+    border-radius: 5px;
+}
+.item-priloz img{
+    margin-right: 5%;
+}
+.priloz{
+    /* display: flex;
+    justify-content: space-between; */
+    grid-template-columns: repeat(4, 1fr);
+    padding: 70px 0px 50px;
+}
+.labs-handler{
+    text-align: center;
+    margin-top: 0px;
+}
+.item-labs-contant{
+    display: flex;
+    margin: 30px 0px;
+    align-items: center;
+    font-size: 17px;
+}
+.item-labs-contant ul{
+    padding-left: 2%;
+}
+.img-comp{
+    margin-right: 3%;
+}

@@ -1,0 +1,18 @@
+.test-page{
+    display: flex;
+    margin: 100px 0px;
+}
+
+.test-page-content{
+    text-align: center;
+    margin-left: 5%;
+}
+
+.btn-test-start{
+    border: none;
+    outline: none;
+    background-color: var(--color-orange);
+    color: #ffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+}

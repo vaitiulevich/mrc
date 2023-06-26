@@ -1,0 +1,10 @@
+.header{
+    background-color: #436D9717;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90px;
+}
+.menu a{
+    margin-left: 10px;
+}

@@ -1,0 +1,19 @@
+.footer{
+    background-color:#F5F7FF;
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+}
+.footer h2{
+    border-bottom: 3px solid var(--color-yellow);
+    margin-bottom: 5px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+}
+.footer-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

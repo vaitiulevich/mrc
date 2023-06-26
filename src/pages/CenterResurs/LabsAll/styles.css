@@ -1,0 +1,65 @@
+.labs{
+    min-height: 1200px;
+    background-image: url(../../../assets/bg-logo.png); 
+    /* background-position: right top;  */
+    background-position: -50% 45%;
+    background-repeat: repeat-x;
+}
+.item-priloz{
+    box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.23);
+    background: #FFFFFF;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    min-height: 120px;
+    justify-content: center;
+    border-radius: 5px;
+}
+.item-priloz img{
+    margin-right: 5%;
+}
+.priloz{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0px 50px;
+}
+.labs-handler{
+    text-align: center;
+    margin-top: 0px;
+}
+.item-labs-contant{
+    display: flex;
+    margin: 30px 0px;
+    align-items: center;
+    font-size: 17px;
+}
+.item-labs-contant ul{
+    padding-left: 2%;
+}
+.img-comp{
+    margin-right: 3%;
+}
+.numb-labs{
+    padding: 5px 13px;
+    border-radius: 10px;
+    background-color: #f4e29260;
+    color: var(--color-yellow);
+    margin-right: 10px;
+}
+.second-lab{
+    background-color: #a3cdf773;
+    color: var(--color-blue);
+}
+.thed-lab{
+    background-color: #ebaba47c;
+    color: var(--color-orange);
+}
+.prefic-lab{
+    font-size: 14px;
+    color: var(--color-orange);
+    font-family: var(--font-handler);
+}
+.item-lab-img{
+    width: 50%;
+    border-radius: 10px;
+}

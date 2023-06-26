@@ -1,0 +1,38 @@
+.test{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.notactive{
+    display: none;
+}
+.flex-res{
+    display: flex;
+    align-items: center;
+}
+.flex-res img{
+    width: 45%;
+}
+/* .active{
+    
+} */
+.all-answ{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+.answer{
+    min-height: 100px;
+    width: 90%;
+    box-shadow: 1px 3px 15px #80808063;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.answer p{
+    text-align: center;
+}
